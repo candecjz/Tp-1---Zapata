@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d9d6d2; 
+    color: #222; 
+}
+
+header {
+    background-color: #8d8987; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 1rem 2rem;
+    display: flex;
+}
+
+nav a {
+    color: #222; 
+    margin-right: 1rem;
+    font-weight: bold; 
+}
+
+#logo img {
+    width: 80px; 
+    height: auto;
+}
+
+section {
+    background-color: #efedeb; 
+    margin: 1rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+}
+h1, h2 {
+    color: #111; 
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    font-weight: normal; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+
