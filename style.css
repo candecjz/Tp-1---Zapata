@@ -37,13 +37,34 @@ h1, h2 {
 }
 table {
     width: 100%;
-    border-collapse: collapse;
     margin-top: 1rem;
+    border-collapse: collapse; /*no hay doble linea(espacio)*/
 }
+/* celdas */
+th, td {
+    border: 1px solid #aaa;
+    padding: 0.5rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+}
+
 
 section p {
     margin-bottom: 1rem;
     line-height: 1.5;
 }
 
-
+#proyectos, #contacto {
+    background-color: #efedeb;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+}
+#contacto a {
+    color: #222;
+    margin: 0.5rem;
+    font-weight: bold;
+    display: inline-block;
+}
