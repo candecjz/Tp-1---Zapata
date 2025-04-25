@@ -38,7 +38,7 @@ h1, h2 {
 table {
     width: 100%;
     margin-top: 1rem;
-    border-collapse: collapse; /*no hay doble linea(espacio)*/
+    border-collapse: collapse; /*saca ladoble linea de un fila con otra(espacio)*/
 }
 /* celdas */
 th, td {
@@ -48,8 +48,6 @@ th, td {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.95rem;
 }
-
-
 section p {
     margin-bottom: 1rem;
     line-height: 1.5;
@@ -61,10 +59,4 @@ section p {
     padding: 2rem;
     text-align: center;
     max-width: 800px;
-}
-#contacto a {
-    color: #222;
-    margin: 0.5rem;
-    font-weight: bold;
-    display: inline-block;
 }
