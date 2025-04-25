@@ -1,8 +1,8 @@
 body {
+    background-color: #d9d6d2; 
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #d9d6d2; 
-    color: #222; 
+    color: #222;
 }
 
 header {
@@ -59,4 +59,10 @@ section p {
     padding: 2rem;
     text-align: center;
     max-width: 800px;
+}
+#contacto a {
+    color: #222;
+    margin: 0.5rem;
+    font-weight: bold;
+    display: inline-block;
 }
