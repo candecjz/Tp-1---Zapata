@@ -29,6 +29,7 @@ section {
     margin: 1rem auto;
     padding: 1.5rem;
     max-width: 800px;
+    border-radius: 10px;
 }
 h1, h2 {
     color: #111; 
@@ -73,7 +74,7 @@ h3, h4 {
     font-weight: bold;
 }
 
-section {
+#proyectos{
     text-align: center;
 }
 #horizontal img{
@@ -88,6 +89,14 @@ section {
 }
 #logoK img{
     height: 400px
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+section li {
+    margin-bottom: 0.5rem;
 }
 
 
